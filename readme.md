@@ -1,0 +1,2 @@
+https://youtrack.jetbrains.com/issue/IDEA-356663/Spring-Boot-configuration-properties-referenced-in-ConditionalOnProperty-annotation-should-not-be-shown-as-unresolved
+https://youtrack.jetbrains.com/issue/IDEA-387829/Spring-Boot-config-properties-referenced-in-Conditional-annotations-are-shown-as-unused-if-prefix-is-set
