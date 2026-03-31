@@ -1,0 +1,7 @@
+my:
+  yaml:
+    props:
+      prop1: true
+      prop2: false
+      prop3: true
+      prop4: true
