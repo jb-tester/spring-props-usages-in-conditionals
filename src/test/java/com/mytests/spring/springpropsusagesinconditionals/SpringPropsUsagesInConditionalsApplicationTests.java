@@ -8,6 +8,8 @@ import org.springframework.test.context.TestPropertySource;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertNull;
 
+// properties are shows as not resolved;
+// they are used in @ConditionalOnProperty in ConditionalOnPropertySetInTest.java
 @SpringBootTest
 @TestPropertySource(properties = {"test.props.prop1=value1", "test.props.prop2=value2"})
 class SpringPropsUsagesInConditionalsApplicationTests {

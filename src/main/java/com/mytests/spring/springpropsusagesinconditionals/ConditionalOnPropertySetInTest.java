@@ -4,7 +4,7 @@ import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-
+// no navigation to @TestPropertySource, the inlined properties are shown as not resolved there
 @Configuration
 public class ConditionalOnPropertySetInTest {
 
