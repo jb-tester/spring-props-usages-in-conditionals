@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
  * *
  */
 @Component
-@ConditionalOnProperty(value = {"my.yaml.props.prop1", "my.yaml.props.prop2"}, havingValue = "true")
-class ConditionalComponent3 {
+@ConditionalOnProperty(name = {"my.props.prop7", "my.props.prop8"}, havingValue = "true")
+class ConditionalOnFewPropertiesComponent {
 
 }

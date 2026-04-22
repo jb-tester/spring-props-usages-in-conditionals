@@ -10,6 +10,6 @@ import org.springframework.stereotype.Component;
  */
 @Component
 @ConditionalOnProperty(prefix = "my.props", name = {"prop10", "prop9"}, havingValue = "true")
-class ConditionalComponent2 {
+class ConditionalOnFewPropertiesSeparatePrefixComponent {
 
 }

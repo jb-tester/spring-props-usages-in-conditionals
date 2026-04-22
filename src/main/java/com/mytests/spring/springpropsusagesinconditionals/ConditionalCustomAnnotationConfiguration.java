@@ -9,6 +9,6 @@ import org.springframework.context.annotation.Configuration;
  */
 @Configuration
 @MyConditionalOnProps(value = {"my.props.prop11", "my.props.prop12"}, havingValue = "true")
-class ConditionalConfiguration1 {
+class ConditionalCustomAnnotationConfiguration {
 
 }
