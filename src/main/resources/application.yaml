@@ -1,7 +1,11 @@
 my:
   yaml:
     props:
+      prop0: true
       prop1: true
-      prop2: false
+      prop2: true
       prop3: true
       prop4: true
+      prop15:
+      prop16: ${my.yaml.props.prop15}
+      prop17:
